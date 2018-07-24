@@ -1,0 +1,7 @@
+language: nodejs
+
+script:
+  - npm install
+  - npx jest
+  - npx tsc
+  - npm pack

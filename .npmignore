@@ -1,0 +1,13 @@
+tsconfig.json
+.travis.yml
+src/
+test/
+.npmignore
+.nvmrc
+newsaktuell-editor-*.tgz
+.idea
+.editorconfig
+.jest.config.js
+tslint.json
+README.md
+jest.config.js
