@@ -1,6 +1,5 @@
 import Newsformat from "./newsformat";
-import moveNestedLists from "../rules/moveNestedLists";
-import removeTrailingSpace from "../rules/removeTrailingSpace";
+import removeNestedLists from "../rules/removeNestedLists";
 
 export default class NewsformatBuilder {
 
@@ -11,12 +10,7 @@ export default class NewsformatBuilder {
     }
 
     removeNestedLists(): NewsformatBuilder {
-        this.html = moveNestedLists(this.html);
-        return this;
-    }
-
-    removeTrailingSpace(): NewsformatBuilder {
-        this.html = removeTrailingSpace(this.html);
+        this.html = removeNestedLists(this.html);
         return this;
     }
 
