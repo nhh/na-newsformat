@@ -1,4 +1,9 @@
-export default function removeTrailingSpace(html: HTMLElement): HTMLElement {
-    html.innerText = html.innerText.trim();
+export default function removeTrailingSpace(html: Document): Document {
+    html.childNodes.forEach((node) => {
+      if(node.textContent != null){
+        node.textContent = node.textContent.trim();
+      }
+    });
+
     return html;
 }

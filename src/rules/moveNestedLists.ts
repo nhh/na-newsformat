@@ -1,4 +1,4 @@
-export default function moveNestedLists(html: HTMLElement): HTMLElement {
+export default function moveNestedLists(html: Document): Document {
 
     html.childNodes.forEach((firstUl) => {
         if(firstUl.nodeName == 'UL') {

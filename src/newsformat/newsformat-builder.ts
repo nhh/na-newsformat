@@ -4,10 +4,10 @@ import removeTrailingSpace from "../rules/removeTrailingSpace";
 
 export default class NewsformatBuilder {
 
-    private html: HTMLElement;
+    private html: Document;
 
-    constructor(html: HTMLElement) {
-        this.html = html;
+    constructor(html: string) {
+        this.html = new DOMParser().parseFromString(html, "text/xml");
     }
 
     removeNestedLists(): NewsformatBuilder {

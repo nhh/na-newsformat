@@ -1,12 +1,12 @@
 export default class Newsformat {
 
-    private readonly html: HTMLElement;
+    private readonly html: Document;
 
-    constructor(html: HTMLElement) {
+    constructor(html: Document) {
         this.html = html;
     }
 
-    getHtml(): HTMLElement {
+    getHtml(): Document {
         return this.html;
     }
 
