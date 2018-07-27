@@ -28,3 +28,7 @@ Create a npm package
 Publish npm pacakge
 `npm publish`
 
+Build Steps:
+
+ES7 -> (npx tsc) -> ES5 -> (npx webpack) -> ES3 🤪
+
