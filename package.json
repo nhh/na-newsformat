@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/nhh/na-newsformat.git"
   },
+  "scripts": {
+    "build": "npx tsc && npx webpack && npm pack"
+  },
   "license": "MIT",
   "devDependencies": {
     "source-map-loader": "^0.2.3",
