@@ -20,7 +20,7 @@ Run tests
 `npx jest`
 
 Build
-`npx tsc`
+`npx tsc && npx webpack`
 
 Create a npm package
 `npm pack`

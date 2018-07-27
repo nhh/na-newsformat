@@ -2,3 +2,4 @@
 node_modules/
 na-newsformat-*.tgz
 dist/
+build/
