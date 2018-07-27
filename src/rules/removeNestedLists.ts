@@ -1,4 +1,4 @@
-export default function removeNestedLists(html: Document): Document {
+export function removeNestedLists(html: Document): Document {
 
   const nestedUls = html.querySelectorAll('ul > li > ul');
 

@@ -1,5 +1,5 @@
-import Newsformat from "./newsformat";
-import removeNestedLists from "../rules/removeNestedLists";
+import {Newsformat} from "./newsformat";
+import {removeNestedLists} from "../rules/removeNestedLists";
 
 export default class NewsformatBuilder {
 

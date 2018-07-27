@@ -1,4 +1,4 @@
-import moveNestedLists, { default as removeNestedLists } from '../../src/rules/removeNestedLists';
+import {removeNestedLists} from "../../src/rules/removeNestedLists";
 
 
 describe('removeNestedLists', async () => {
@@ -9,7 +9,7 @@ describe('removeNestedLists', async () => {
 
       const document = new DOMParser().parseFromString(html, "text/xml");
 
-      expect(moveNestedLists(document).documentElement.outerHTML).toBe('<ul><li></li><li>Nested ul!</li></ul>');
+      expect(removeNestedLists(document).documentElement.outerHTML).toBe('<ul><li></li><li>Nested ul!</li></ul>');
 
     });
 

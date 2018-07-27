@@ -1,4 +1,4 @@
-export default class Newsformat {
+export class Newsformat {
 
     private readonly html: Document;
 
