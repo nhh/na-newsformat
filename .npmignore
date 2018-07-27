@@ -1,6 +1,7 @@
 tsconfig.json
 .travis.yml
 test/
+src/
 .npmignore
 .nvmrc
 na-newsformat-*.tgz

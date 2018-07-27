@@ -13,6 +13,9 @@
 ``src`` contains all source files. The goal is, to provide an abstraction layer on top of the drafjs lib.
 Additionally we must transform the generated html to a valid newsformat.
 
+## Releases
+
+This library is getting releases as ES5 and ES3 build, for both supporting browser and typescript.
 
 ## Commands & Scripts
 
